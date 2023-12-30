@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Book travel deals across Australia and the world at Trip.com. With great deals on flights, hotels, car hire and more, we've got your entire journey covered.">
+    <title>Self Guided Tour _ travel recommendation community</title>
+    <meta name="keywods" content="Cheap Flights, Hotels, Train Tickets">
+    <script type="text/javascript" src="js/carousel.js" defer></script>
+
+    <link rel="stylesheet" href="css/resetYui.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/css.css">
+
+
+</head>
+
+<body>
+    <header class="side-head">
+        <div class="topbar">
+            <div class="center-wrap">
+                <nav class="shortcut-list">
+                    <ul>
+                        <li class="have-menu">
+                            <a href="">Destination</a>
+                            <em class="arrow">
+                                <b></b>
+                                <i></i>
+                            </em>
+                            <div class="topmenu-dest">
+                                <ul>
+                                    <li><a href="">Sydney</a></li>
+                                    <li><a href="">Melbourne</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Brisbane</a></li>                                    
+                                    <li><a href="">Gold coast</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Hobart</a></li>                                  
+                                    <li><a href="">Perth</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Flight</a>
+                        </li>
+                        <li>
+                            <a href="">Trains</a>
+                        </li>
+                        <li>
+                            <a href="">Cars</a>
+                        </li>
+                        <li class="have-menu">
+                            <a href="">Hotels</a>
+                            <em class="arrow">
+                                <b></b>
+                                <i></i>
+                            </em>
+
+                            <div class="topmenu-dest">
+                                <ul>
+                                    <li><a href="">Sydney</a></li>
+                                    <li><a href="">Melbourne</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Brisbane</a></li>                                    
+                                    <li><a href="">Gold coast</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Hobart</a></li>                                  
+                                    <li><a href="">Perth</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Store</a>
+                        </li>
+                        <li class="have-menu">
+                            <a href="">Special</a>
+                            <em class="arrow">
+                                <b></b>
+                                <i></i>
+                            </em>
+
+                            <div class="topmenu-dest">
+                                <ul>
+                                    <li><a href="">Sydney</a></li>
+                                    <li><a href="">Melbourne</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Brisbane</a></li>                                    
+                                    <li><a href="">Gold coast</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Hobart</a></li>                                  
+                                    <li><a href="">Perth</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-r">
+                    <a href="" class="iconfont">&#xe62d;</a>
+                    <span style="color: white;">|</span>
+                    <a href="" class="iconfont">&#xea08;</a>
+                    <a href="" class="iconfont">&#xea0c;</a>
+                    <a href="" class="iconfont">&#xe737;</a>
+                    <a href="" >Login/Register</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-menu">
+            <div class="center-wrap">
+                <nav class="main-list">
+                    <ul>
+                        <li class="have-menu">
+                            <a href="">Stays</a>
+                        </li>
+                        <li class="have-menu">
+                            <a href="">Flights</a>
+                        </li>
+                        <li>
+                            <a href="">Tour Guide</a>
+                        </li>
+                        <li class="have-menu">
+                            <a href="">Hotels</a>
+                        </li>
+                        <li>
+                            <a href="">Visa</a>
+                        </li>
+                        <li>
+                            <a href="">Ships</a>
+                        </li>
+                        <li>
+                            <a href="">Insurance</a>
+                        </li>
+                        <li>
+                            <a href="">Road Trip</a>
+                        </li>
+                        <li>
+                            <a href="">Personal Trip</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+        </div>
+
+        <div class="searchbar">
+            <div class="center-wrap">
+                <h1>AuTrip.com</h1>
+                <div class="search-container">
+                    <div class="searchbox">
+                        <input type="text" placeholder="City, airport, region, landmark or hotel name">
+                    </div>
+                    <div class="searchbtn">
+                        <a href="" class="iconfont">&#xe62d;</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section class="banner">
+        <div id="points">
+            <ul id="circles">
+                <li class="current" data-n='0'></li>
+                <li data-n='1'></li>
+                <li data-n='2'> </li>
+                <li data-n='3'> </li>
+                <li data-n='4'></li>
+            </ul>
+        </div>
+        <div class="carousel">
+            <ul id="carousel_list">
+                <li>
+                    <img src="images/banner.jpg"/>
+                </li>
+                <li>
+                    <img src="images/banner2.jpg"/>
+                </li>
+                <li>
+                    <img src="images/banner3.jpg"/>
+                </li>
+                <li>
+                    <img src="images/banner4.jpg"/>
+                </li>
+                <li>
+                    <img src="images/banner5.jpg"/>
+                </li>
+                <li>
+                    <img src="images/banner.jpg"/>
+                </li>
+            </ul>
+        </div>
+        <div class="center-wrap">
+            <div class="nav-arrow-left">
+                <a id="left_btn" href="javascript:void(0)" class="iconfont">&#xe64c;
+                </a>
+            </div>
+    
+            <div class="nav-arrow-right">
+                <a id="right_btn" href="javascript:" class="iconfont">&#xe64d;
+                </a>
+            </div>
+            <nav class="banner-nav">
+            <ul>
+                <li>
+                    <span class="iconfont">&#xe6dc;</span>
+                    <dl>
+                        <dt>Hot Departure</dt>
+                        <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
+                    </dl>
+                    <em class="iconfont">&#xe64d;
+                    </em>
+                </li>
+
+                <li>
+                    <span class="iconfont">&#xe869;
+                    </span>
+
+                    <dl>
+                        <dt>Europe</dt>
+                        <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
+                    </dl>
+
+                    <em class="iconfont">&#xe64d;
+                    </em>
+                </li>
+                <li>
+                    <span class="iconfont">&#xe86a;
+                    </span>
+
+                    <dl>
+                        <dt>America</dt>
+                        <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
+                    </dl>
+                    <em class="iconfont">&#xe64d;
+                    </em>
+                </li>
+                <li>
+                    <span class="iconfont">&#xebc2;
+                    </span>
+
+                    <dl>
+                        <dt>Africa</dt>
+                        <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
+                    </dl>
+                    <em class="iconfont">&#xe64d;
+                    </em>
+                </li>
+                <li>
+                    <span class="iconfont">&#xe68b;</span>
+
+                    <dl>
+                        <dt>Southeast Asia</dt>
+                        <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
+                    </dl>
+                    <em class="iconfont">&#xe64d;
+                    </em>
+                </li>
+                <li>
+                    <span class="iconfont">&#xef79;
+                    </span>
+
+                    <dl>
+                        <dt>China Mainland</dt>
+                        <dd>Shanghai Beijing Chengdu Guangzhou</dd>
+                    </dl>
+                    <em class="iconfont">&#xe64d;
+                    </em>
+                </li>
+            </ul>
+            </nav>
+            <div class="menu">
+                <div class="menu-split">
+                    <dl>
+                        <dt>Thailand, Singapore, Malaysia</dt>
+                        <dd>
+                            <a href="#">Phuket</a>
+                            <a href="#">Chiang Mai</a>
+                            <a href="#">Bangkok</a>
+                            <a href="#">Koh Samui</a>
+                            <a href="#">Krabi</a>
+                            <a href="#">Pattaya</a>
+                            <a href="#">Pai County</a>
+                            <a href="#">Singapore</a>
+                            <a href="#">Malaysia</a>
+                            <a href="#">Sabah</a>
+                            <a href="#">Kuala Lumpur</a>
+                            <a href="#">Emperor Island</a>
+                            <a href="#">Thai Ladyboy Show</a>
+                            <a href="#">Jungle Zip Line in Thailand</a>
+                            <a href="#">Thai Spa Massage</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>Southeast Asia</dt>
+                        <dd>
+                            <a href="#">Bali</a>
+                            <a href="#">Boracay</a>
+                            <a href="#">Manila</a>
+                            <a href="#">Bohol</a>
+                            <a href="#">Mui Ne, Vietnam</a>
+                            <a href="#">Da Nang</a>
+                            <a href="#">Phu Quoc Island</a>
+                            <a href="#">Cambodia</a>
+                            <a href="#">Myanmar</a>
+                            <a href="#">Laos</a>
+                            <a href="#">Brunei</a>
+                            <a href="#">Lembongan Island</a>
+                            <a href="#">Bali SPA</a>
+                            <a href="#">Instagrammable Floating Afternoon Tea</a>
+                            <a href="#">Pearl Island Amusement Park</a>
+                            <a href="#">Phu Quoc Snorkeling and Fishing</a>
+                            <a href="#">Angkor Wat</a>
+                            <a href="#">Sihanoukville</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>West Asia</dt>
+                        <dd>
+                            <a href="#">Maldives</a>
+                            <a href="#">Sri Lanka</a>
+                            <a href="#">India</a>
+                            <a href="#">Nepal</a>
+                            <a href="#">Georgia, Azerbaijan</a>
+                            <a href="#">Armenia</a>
+                        </dd>
+                    </dl>
+                    
+                    
+                </div>
+                <div class="menu-split"></div>
+                <div class="menu-split"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="hot-ads">
+        <div class="center-wrap">
+            <ul>
+                <li>
+                    <a href="">
+                            <img src="images/hot-ads1.png" />
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="">
+                            <img src="images/hot-ads2.png" />
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="">
+                            <img src="images/hot-ads3.png" />
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="">
+                            <img src="images/hot-ads4.png" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="new-specials">
+        <div class="center-wrap">
+            <div class="hd clearfix">
+                <h2 class="title">New Specials</h2>
+                <em class="subtitle">Goodies you can't miss every day</em>
+            </div>
+        <ul>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial1.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        Beijing to Maldives 6-7 days round trip
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial2.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        [Tail-shaking Carnival] Beijing/Tianjin to Japan Tokyo
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial3.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        [No Refusal – Full Refund][Nationwide 25-City Connection] 
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial4.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        [Cherry Blossom Season] Beijing to Tokyo
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial5.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                         New Zealand Fox Glacier Helicopter Sightseeing+Glacier Trek…
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial6.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        [Nordic Icebreaker] Finland+Sweden Polar Explorer
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial7.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        [Special Offer for Designated Departure Dates]
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial8.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        Malaysia Sky Mirror+Eagle-watching at the Estuary
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </section>
+
+    <section class="self-tour content-part common-style">
+        <div class="center-wrap">
+            <div class="hd clearfix">
+                <h2 class="title">Self-guided Tour</h2>
+                <em class="subtitle">Selection of global travel products</em>
+                <nav>
+                    <ul>
+                        <li><a href="">Recent Goodies</a></li>
+                        <li><a href="">New Arrivals</a></li>
+                        <li><a href="">Customized Tours</a></li>
+                        <li class="current"><a href="">Discounted Flights</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="self-tourgrid">
+                <ul>
+                    <li class="big-grid">
+                        <a href="">
+                            <img src="images/selfguide1.png" alt="">
+                        </a>
+                        <span class="tag">Flight</span>
+                        <div class="info">
+                            <div>
+                                <p>
+                                    [Cherry Blossom Season] Tianjin to Tokyo/Osaka/Nagoya/Okinawa/Sapporo 2-30 days round trip
+                                </p>
+                                <p>
+                                    Tax-inclusive airfare [Clearance/Scheduled departures]
+                                </p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pro-grid">
+                        <a href="">
+                            <div class="picbox">
+                                <span class="tag">Group</span>
+                                <img src="images/selfguide2.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="pro-grid">
+                        <a href="">
+                            <div class="picbox">
+                                <span class="tag">Flight</span>
+                                <img src="images/selfguide3.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                        </a>
+                    </li>
+
+                    <li class="pro-grid">
+                        <a href="">
+                            <div class="picbox">
+                                <span class="tag">Flight</span>
+                                <img src="images/selfguide4.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="pro-grid">
+                        <a href="">
+                            <div class="picbox">
+                                <span class="tag">Flight</span>
+                                <img src="images/selfguide5.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="pro-grid">
+                        <a href="">
+                            <div class="picbox">
+                                <span class="tag">Flight</span>
+                                <img src="images/selfguide6.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="more-grid">
+                        <a href="">
+                            <p>View More</p>
+                            <p>Self-guided Products</p>
+                            <span class="iconfont">&#xe888;</span>
+                            <ul>
+                                <li>Flights</li>
+                                <li>Hotels</li>
+                                <li>Cruise</li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            
+        </div>
+    </section>
+
+
+    <section class="local-fun content-part common-style">
+        <div class="center-wrap">
+            <div class="hd clearfix">
+                <h2 class="title">Local Entertainment</h2>
+                <em class="subtitle">Experience local food, drinks, and entertainment like a local</em>
+                <nav>
+                    <ul>
+                        <li><a href="">Japan</a></li>
+                        <li><a href="">Switzerland</a></li>
+                        <li><a href="">New Zealand</a></li>
+                        <li><a href="">Australia</a></li>
+                        <li><a href="">Thailand</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content"> 
+                <div class="col">
+                    <div class="bigpicbox">
+                        <img src="images/localfun1.png" alt="">
+                        <div class="info">
+                            <p class="proname">
+                                [Family Choice] Night Safari in Chiang Mai, Thailand (Optional Pickup; Guide; Giraffe Restaurant)
+                            </p>
+                            <div class="bottom clearfix">
+                                <p class="tag">City Entertainment</p>
+                                <p class="price"> From <strong>99</strong> AUD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="localfun-grid">
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localfun2.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                [Cherry Blossom Season] Direct Flights from Beijing/Tianjin to Tokyo/Osaka/Nagoya/Fukuoka
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="localfun-grid">
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localfun3.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                [New Instagram Picks] Day Trip to Black White Blue Temple in Chiang Mai
+                            </div>
+                        </a>
+                    </div>
+                    <div class="localfun-grid">
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localfun4.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                [Island-wide Pickup + Chinese Guide] One Day Tour to Phuket 
+                            </div>
+                        </a>
+                    </div>
+                    <div class="localfun-grid">
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localfun5.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                Enjoy Travel | One Day Trip to Koh Samui, Thailand, Off-road Jungle Island Tour
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="localfun-grid">
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localfun6.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                [Cherry Blossom Season] Direct Flights from Beijing/Tianjin to Tokyo/Osaka/Nagoya/Fukuoka/
+                            </div>
+                        </a>
+                    </div>
+                    <div class="more-grid">
+                        <a href="">
+                            <p>View More</p>
+                            <p>Package Deals for Independent Travel</p>
+                            <span class="iconfont">&#xe888;</span>
+                            <ul>
+                                <li>SIM Cards</li>
+                                <li>Transport</li>
+                                <li>Attraction</li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="local-experiences content-part">
+        <div class="center-wrap">
+            <div class="hd clearfix">
+                <h2 class="title">Local Experiences</h2>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localexp1.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                <p class="proname">
+                                    Hong Kong Disneyland
+                                </p>
+                                <p>
+                                    <span class="score">★ 4.8</span>
+                                    <span class="comment">(92833 reviews) by 2334.69k people</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localexp2.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                <p class="proname">
+                                    Rome Golden Palace Theater Transgender Show
+                                </p>
+                                <p>
+                                    <span class="score">★ 4.8</span>
+                                    <span class="comment">(92833 reviews) by 2334.69k people</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localexp3.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                <p class="proname">
+                                    Kyoto Kimono Experience - Dream Hall
+                                </p>
+                                <p>
+                                    <span class="score">★ 4.8</span>
+                                    <span class="comment">(92833 reviews) by 2334.69k people</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localexp4.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                <p class="proname">
+                                    UK Stonehenge Day Tour
+                                </p>
+                                <p>
+                                    <span class="score">★ 4.8</span>
+                                    <span class="comment">(92833 reviews) by 2334.69k people</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<!-- Explore the World · Deep Travel -->
+<section class="deep-tour content-part common-style">
+    <div class="center-wrap">
+        <div class="hd clearfix">
+            <h2 class="title">Deep tour</h2>
+            <em class="subtitle">Break free from generic travels, explore your own world</em>
+            <nav>
+                <ul>
+                    <li class="current"><a href="">CityWalk</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bd">
+            <ul>
+                <li class="big-grid havehover">
+                    <a href="">
+                        <div class="mask"></div>
+                        <div class="circle">
+                            <p>City Walk</p>
+                        </div>
+                        <div class="word">
+                            【City Walk】Osaka's Splendid Castle 
+                        </div>
+                        <img src="images/deeptour1.png" alt="">
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/deeptour2.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Hangzhou direct flight to Bali 5-7 days round trip
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/deeptour5.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                           Hangzhou direct flight to Bali 5-7 days round trip
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/deeptour3.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Hangzhou direct flight to Bali 5-7 days round trip
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/deeptour4.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Hangzhou direct flight to Bali 5-7 days round trip
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/deeptour6.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Hangzhou direct flight to Bali 5-7 days round trip
+                        </div>
+                    </a>
+                </li>
+                <li class="more-grid">
+                    <a href="">
+                        <p>View more</p>
+                        <p>Deep travel products</p>
+                        <span class="iconfont">&#xe888;</span>
+                        <ul>
+                            <li>Day trips</li>
+                            <li>Weekends</li>
+                            <li>Family</li>
+                            <li>Long-haul</li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Group Tours/Self-guided Tours -->
+<section class="group-tour content-part common-style">
+    <div class="center-wrap">
+        <div class="hd clearfix">
+            <h2 class="title">Group Tours</h2>
+            <em class="subtitle"> Travel needs good choices for peace of mind</em>
+            <nav>
+                <ul>
+                    <li class="current"><a href="">Self-guided Tours</a></li>
+                    <li><a href="">City Walk</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bd">
+            <ul>
+                <li class="big-grid havehover">
+                    <a href="">
+                        <div class="mask"></div>
+                        <div class="circle">
+                            <p>Guided Tours</p>
+                        </div>
+                        <div class="word">
+                            【City Walk】Osaka's Splendid Castle
+                        </div>
+                        <img src="images/grouptour.png" alt="">
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/grouptour2.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Chengdu/Xi'an direct flight to Chiang Mai
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/grouptour3.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            [All-inclusive] Beijing direct flight to Tokyo 
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/grouptour4.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Tianjin direct flight to Nha Trang 5-7 days semi-self-guided tour 
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/grouptour5.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Guangzhou direct flight to Malé 5-6 semi-self-guided tour
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/grouptour6.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            (Visa-free entry) Shenzhen direct flight to Tehran
+                    </a>
+                </li>
+                <li class="more-grid">
+                    <a href="">
+                        <p>View more</p>
+                        <p>Premium Group Tours</p>
+                        <span class="iconfont">&#xe888;</span>
+                        <ul>
+                            <li>Group Tours</li>
+                            <li>Guided Tours</li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="part1">
+        <div class="center-wrap">
+            <nav>
+                <ul class="clearfix">
+                    <li><a href="">Self-guided</a></li>
+                    <li><a href="">Local Activities</a></li>
+                    <li><a href="">Discounted Flights</a></li>
+                    <li><a href="">Visa Services</a></li>
+                    <li><a href="">Cruises</a></li>
+                    <li><a href="">Car Rental</a></li>
+                    <li><a href="">Deep Tour</a></li>
+                    <li><a href="">Deep Tour</a></li>
+
+                </ul>
+            </nav>
+            <div class="dlbox clearfix">
+                <dl class="txfw">
+                    <dt>Considerate Service</dt>
+                    <dd>We gather the real needs of Muyun travelers, seek unique travel destinations, and ensure worry-free journeys.</dd>
+                </dl>
+                <dl class="ccsx">
+                    <dt>Layered Screening</dt>
+                    <dd>We rigorously screen tourism product suppliers, ensuring qualifications are thoroughly reviewed.</dd>
+                </dl>
+                <dl class="axph">
+                    <dt>Reliable Support</dt>
+                    <dd>We provide prompt complaint resolution, and offer preemptive compensation in case of issues.</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<a id="backtotop" href="javasriptp:;">Back<br>To<br>Top</a>
+
+
+</body>
+
+</html>
+
+
