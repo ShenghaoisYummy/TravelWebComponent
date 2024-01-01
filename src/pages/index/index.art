@@ -15,22 +15,7 @@
 
         <% include ('../../components/topbar/topbar.art')%>
         <% include ('../../components/main-menu/main-menu.art')%>
-
-
-        <div class="searchbar">
-            <div class="center-wrap">
-                <h1>AuTrip.com</h1>
-                <div class="search-container">
-                    <div class="searchbox">
-                        <input type="text" placeholder="City, airport, region, landmark or hotel name">
-                    </div>
-                    <div class="searchbtn">
-                        <a href="" class="iconfont">&#xe62d;</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <% include ('../../components/searchbar/searchbar.art')%>
     </header>
     <section class="banner">
         <% include ('./components/carousel/carousel.art')%>
