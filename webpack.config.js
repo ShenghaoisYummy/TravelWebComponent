@@ -67,5 +67,4 @@ module.exports = {
             template: './src/pages/index/index.art'
         })
     ]
-
 };

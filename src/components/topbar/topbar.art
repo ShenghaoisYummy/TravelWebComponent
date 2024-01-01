@@ -1,0 +1,87 @@
+        <div class="topbar">
+            <div class="center-wrap">
+                <nav class="shortcut-list">
+                    <ul>
+                        <li class="have-menu">
+                            <a href="">Destination</a>
+                            <em class="arrow">
+                                <b></b>
+                                <i></i>
+                            </em>
+                            <div class="topmenu-dest">
+                                <ul>
+                                    <li><a href="">Sydney</a></li>
+                                    <li><a href="">Melbourne</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Brisbane</a></li>                                    
+                                    <li><a href="">Gold coast</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Hobart</a></li>                                  
+                                    <li><a href="">Perth</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Flight</a>
+                        </li>
+                        <li>
+                            <a href="">Trains</a>
+                        </li>
+                        <li>
+                            <a href="">Cars</a>
+                        </li>
+                        <li class="have-menu">
+                            <a href="">Hotels</a>
+                            <em class="arrow">
+                                <b></b>
+                                <i></i>
+                            </em>
+
+                            <div class="topmenu-dest">
+                                <ul>
+                                    <li><a href="">Sydney</a></li>
+                                    <li><a href="">Melbourne</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Brisbane</a></li>                                    
+                                    <li><a href="">Gold coast</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Hobart</a></li>                                  
+                                    <li><a href="">Perth</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">Store</a>
+                        </li>
+                        <li class="have-menu">
+                            <a href="">Special</a>
+                            <em class="arrow">
+                                <b></b>
+                                <i></i>
+                            </em>
+
+                            <div class="topmenu-dest">
+                                <ul>
+                                    <li><a href="">Sydney</a></li>
+                                    <li><a href="">Melbourne</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Brisbane</a></li>                                    
+                                    <li><a href="">Gold coast</a></li>
+                                    <li><a href="">Canberra</a></li>
+                                    <li><a href="">Hobart</a></li>                                  
+                                    <li><a href="">Perth</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-r">
+                    <a href="" class="iconfont">&#xe62d;</a>
+                    <span style="color: white;">|</span>
+                    <a href="" class="iconfont">&#xea08;</a>
+                    <a href="" class="iconfont">&#xea0c;</a>
+                    <a href="" class="iconfont">&#xe737;</a>
+                    <a href="" >Login/Register</a>
+                </div>
+            </div>
+        </div>
