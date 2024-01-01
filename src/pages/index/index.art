@@ -78,38 +78,11 @@
                 <li data-n='4'></li>
             </ul>
         </div>
-        <div class="carousel">
-            <ul id="carousel_list">
-                <li>
-                    <img src="images/banner.jpg"/>
-                </li>
-                <li>
-                    <img src="images/banner2.jpg"/>
-                </li>
-                <li>
-                    <img src="images/banner3.jpg"/>
-                </li>
-                <li>
-                    <img src="images/banner4.jpg"/>
-                </li>
-                <li>
-                    <img src="images/banner5.jpg"/>
-                </li>
-                <li>
-                    <img src="images/banner.jpg"/>
-                </li>
-            </ul>
-        </div>
+        <% include ('./components/carousel/carousel.art')%>
+        <% include ('./components/carousel/btn.art')%>
+
         <div class="center-wrap">
-            <div class="nav-arrow-left">
-                <a id="left_btn" href="javascript:void(0)" class="iconfont">&#xe64c;
-                </a>
-            </div>
-    
-            <div class="nav-arrow-right">
-                <a id="right_btn" href="javascript:" class="iconfont">&#xe64d;
-                </a>
-            </div>
+
             <nav class="banner-nav">
             <ul>
                 <li>

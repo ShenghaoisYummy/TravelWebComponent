@@ -1,0 +1,17 @@
+.carousel {
+
+    width:600%;
+}
+
+.carousel ul li {
+
+    float: left;
+    width:16.6667%;
+    overflow: hidden;
+
+}
+
+#carousel_list{
+    width:100%;
+    overflow: hidden;
+}

@@ -123,7 +123,6 @@
                 clearInterval(timer);
             }
         }, 20)
-
     }
 
     window.onscroll = function () {
@@ -135,7 +134,5 @@
             topbtn.style.display = 'block';
 
         }
-
     }
-
-})
+})()

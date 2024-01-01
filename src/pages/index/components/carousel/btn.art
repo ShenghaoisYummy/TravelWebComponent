@@ -1,0 +1,9 @@
+            <div class="nav-arrow-left">
+                <a id="left_btn" href="javascript:void(0)" class="iconfont">&#xe64c;
+                </a>
+            </div>
+    
+            <div class="nav-arrow-right">
+                <a id="right_btn" href="javascript:" class="iconfont">&#xe64d;
+                </a>
+            </div>

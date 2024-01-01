@@ -1,3 +1,6 @@
+.side-head {
+    height: 150px;
+}
 .main-menu {
     width: 1366px;
     height: 40px;
@@ -221,48 +224,6 @@ span {
 .banner .center-wrap .banner-nav>ul>li dl dd {
     font-size: 14px;
     color: #FFFFFF;
-
-}
-
-.banner .nav-arrow-left {
-    position: absolute;
-    width: 32px;
-    height: 44px;
-    top: 50%;
-    left: 65px;
-    opacity: 0.5;
-    background: #000000;
-
-}
-
-.banner .nav-arrow-left a {
-    position: absolute;
-    top: 50%;
-    margin-top: -14px;
-    font-size: 26px;
-    color: white;
-
-}
-
-.banner .nav-arrow-right {
-    position: absolute;
-    width: 32px;
-    height: 44px;
-    opacity: 0.5;
-    top: 50%;
-    right:65px;
-    background: #000000;
-
-}
-
-.banner .nav-arrow-right a {
-
-    position: absolute;
-    top: 50%;
-    margin-top: -14px;
-    padding-left:2px;
-    font-size: 26px;
-    color: white;
 
 }
 
@@ -899,19 +860,6 @@ li:nth-child(7) {
     line-height: 22px;
 }
 
-.carousel {
-
-    width:600%;
-}
-
-.carousel ul li {
-
-    float: left;
-    width:16.6667%;
-    overflow: hidden;
-
-}
-
 #points {
 
     width: 160px;
@@ -922,10 +870,6 @@ li:nth-child(7) {
     z-index: 9999;
     cursor: pointer;
 
-}
-#carousel_list{
-    width:100%;
-    overflow: hidden;
 }
 
 #points ul li.current {
