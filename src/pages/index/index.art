@@ -14,44 +14,8 @@
     <header class="side-head">
 
         <% include ('../../components/topbar/topbar.art')%>
+        <% include ('../../components/main-menu/main-menu.art')%>
 
-        <div class="main-menu">
-            <div class="center-wrap">
-                <nav class="main-list">
-                    <ul>
-                        <li class="have-menu">
-                            <a href="">Stays</a>
-                        </li>
-                        <li class="have-menu">
-                            <a href="">Flights</a>
-                        </li>
-                        <li>
-                            <a href="">Tour Guide</a>
-                        </li>
-                        <li class="have-menu">
-                            <a href="">Hotels</a>
-                        </li>
-                        <li>
-                            <a href="">Visa</a>
-                        </li>
-                        <li>
-                            <a href="">Ships</a>
-                        </li>
-                        <li>
-                            <a href="">Insurance</a>
-                        </li>
-                        <li>
-                            <a href="">Road Trip</a>
-                        </li>
-                        <li>
-                            <a href="">Personal Trip</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-
-        </div>
 
         <div class="searchbar">
             <div class="center-wrap">
@@ -69,15 +33,6 @@
         </div>
     </header>
     <section class="banner">
-        <div id="points">
-            <ul id="circles">
-                <li class="current" data-n='0'></li>
-                <li data-n='1'></li>
-                <li data-n='2'> </li>
-                <li data-n='3'> </li>
-                <li data-n='4'></li>
-            </ul>
-        </div>
         <% include ('./components/carousel/carousel.art')%>
         <% include ('./components/carousel/btn.art')%>
 

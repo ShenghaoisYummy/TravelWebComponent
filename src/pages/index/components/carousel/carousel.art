@@ -1,3 +1,12 @@
+<div id="points">
+    <ul id="circles">
+        <li class="current" data-n='0'></li>
+        <li data-n='1'></li>
+        <li data-n='2'> </li>
+        <li data-n='3'> </li>
+        <li data-n='4'></li>
+    </ul>
+</div>
 <div class="carousel">
     <ul id="carousel_list">
         <li>

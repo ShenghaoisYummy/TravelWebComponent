@@ -1,0 +1,37 @@
+        <div class="main-menu">
+            <div class="center-wrap">
+                <nav class="main-list">
+                    <ul>
+                        <li class="have-menu">
+                            <a href="">Stays</a>
+                        </li>
+                        <li class="have-menu">
+                            <a href="">Flights</a>
+                        </li>
+                        <li>
+                            <a href="">Tour Guide</a>
+                        </li>
+                        <li class="have-menu">
+                            <a href="">Hotels</a>
+                        </li>
+                        <li>
+                            <a href="">Visa</a>
+                        </li>
+                        <li>s
+                            <a href="">Ships</a>
+                        </li>
+                        <li>
+                            <a href="">Insurance</a>
+                        </li>
+                        <li>
+                            <a href="">Road Trip</a>
+                        </li>
+                        <li>
+                            <a href="">Personal Trip</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+        </div>
