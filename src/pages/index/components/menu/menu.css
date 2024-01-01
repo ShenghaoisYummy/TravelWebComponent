@@ -1,0 +1,36 @@
+.banner .center-wrap .menu {
+
+    position: absolute;
+    top: 0;
+    left: 403px;
+    width: 356px;
+    height: 100%;
+    opacity: 0.5;
+    padding: 10px;
+    background: #000000;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+
+
+.banner .center-wrap .menu .menu-split dl {
+
+    height: 33.3333333;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.banner .center-wrap .menu .menu-split dl dt {
+
+    font-size: 18px;
+    color: white;
+
+}
+
+.banner .center-wrap .menu .menu-split dl dd a {
+
+    font-size: 14px;
+    color: white;
+
+}

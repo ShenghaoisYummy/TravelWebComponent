@@ -12,7 +12,6 @@
 
 <body>
     <header class="side-head">
-
         <% include ('../../components/topbar/topbar.art')%>
         <% include ('../../components/main-menu/main-menu.art')%>
         <% include ('../../components/searchbar/searchbar.art')%>
@@ -20,141 +19,9 @@
     <section class="banner">
         <% include ('./components/carousel/carousel.art')%>
         <% include ('./components/carousel/btn.art')%>
-
         <div class="center-wrap">
-
-            <nav class="banner-nav">
-            <ul>
-                <li>
-                    <span class="iconfont">&#xe6dc;</span>
-                    <dl>
-                        <dt>Hot Departure</dt>
-                        <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
-                    </dl>
-                    <em class="iconfont">&#xe64d;
-                    </em>
-                </li>
-
-                <li>
-                    <span class="iconfont">&#xe869;
-                    </span>
-
-                    <dl>
-                        <dt>Europe</dt>
-                        <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
-                    </dl>
-
-                    <em class="iconfont">&#xe64d;
-                    </em>
-                </li>
-                <li>
-                    <span class="iconfont">&#xe86a;
-                    </span>
-
-                    <dl>
-                        <dt>America</dt>
-                        <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
-                    </dl>
-                    <em class="iconfont">&#xe64d;
-                    </em>
-                </li>
-                <li>
-                    <span class="iconfont">&#xebc2;
-                    </span>
-
-                    <dl>
-                        <dt>Africa</dt>
-                        <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
-                    </dl>
-                    <em class="iconfont">&#xe64d;
-                    </em>
-                </li>
-                <li>
-                    <span class="iconfont">&#xe68b;</span>
-
-                    <dl>
-                        <dt>Southeast Asia</dt>
-                        <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
-                    </dl>
-                    <em class="iconfont">&#xe64d;
-                    </em>
-                </li>
-                <li>
-                    <span class="iconfont">&#xef79;
-                    </span>
-
-                    <dl>
-                        <dt>China Mainland</dt>
-                        <dd>Shanghai Beijing Chengdu Guangzhou</dd>
-                    </dl>
-                    <em class="iconfont">&#xe64d;
-                    </em>
-                </li>
-            </ul>
-            </nav>
-            <div class="menu">
-                <div class="menu-split">
-                    <dl>
-                        <dt>Thailand, Singapore, Malaysia</dt>
-                        <dd>
-                            <a href="#">Phuket</a>
-                            <a href="#">Chiang Mai</a>
-                            <a href="#">Bangkok</a>
-                            <a href="#">Koh Samui</a>
-                            <a href="#">Krabi</a>
-                            <a href="#">Pattaya</a>
-                            <a href="#">Pai County</a>
-                            <a href="#">Singapore</a>
-                            <a href="#">Malaysia</a>
-                            <a href="#">Sabah</a>
-                            <a href="#">Kuala Lumpur</a>
-                            <a href="#">Emperor Island</a>
-                            <a href="#">Thai Ladyboy Show</a>
-                            <a href="#">Jungle Zip Line in Thailand</a>
-                            <a href="#">Thai Spa Massage</a>
-                        </dd>
-                    </dl>
-                    <dl>
-                        <dt>Southeast Asia</dt>
-                        <dd>
-                            <a href="#">Bali</a>
-                            <a href="#">Boracay</a>
-                            <a href="#">Manila</a>
-                            <a href="#">Bohol</a>
-                            <a href="#">Mui Ne, Vietnam</a>
-                            <a href="#">Da Nang</a>
-                            <a href="#">Phu Quoc Island</a>
-                            <a href="#">Cambodia</a>
-                            <a href="#">Myanmar</a>
-                            <a href="#">Laos</a>
-                            <a href="#">Brunei</a>
-                            <a href="#">Lembongan Island</a>
-                            <a href="#">Bali SPA</a>
-                            <a href="#">Instagrammable Floating Afternoon Tea</a>
-                            <a href="#">Pearl Island Amusement Park</a>
-                            <a href="#">Phu Quoc Snorkeling and Fishing</a>
-                            <a href="#">Angkor Wat</a>
-                            <a href="#">Sihanoukville</a>
-                        </dd>
-                    </dl>
-                    <dl>
-                        <dt>West Asia</dt>
-                        <dd>
-                            <a href="#">Maldives</a>
-                            <a href="#">Sri Lanka</a>
-                            <a href="#">India</a>
-                            <a href="#">Nepal</a>
-                            <a href="#">Georgia, Azerbaijan</a>
-                            <a href="#">Armenia</a>
-                        </dd>
-                    </dl>
-                    
-                    
-                </div>
-                <div class="menu-split"></div>
-                <div class="menu-split"></div>
-
-            </div>
+            <% include ('./components/banner-nav/banner-nav.art')%>
+            <% include ('./components/menu/menu.art')%>
         </div>
     </section>
 

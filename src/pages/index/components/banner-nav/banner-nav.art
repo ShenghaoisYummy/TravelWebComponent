@@ -1,0 +1,69 @@
+<nav class="banner-nav">
+    <ul>
+        <li>
+            <span class="iconfont">&#xe6dc;</span>
+            <dl>
+                <dt>Hot Departure</dt>
+                <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
+            </dl>
+            <em class="iconfont">&#xe64d;
+            </em>
+        </li>
+
+        <li>
+            <span class="iconfont">&#xe869;
+            </span>
+
+            <dl>
+                <dt>Europe</dt>
+                <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
+            </dl>
+
+            <em class="iconfont">&#xe64d;
+            </em>
+        </li>
+        <li>
+            <span class="iconfont">&#xe86a;
+            </span>
+
+            <dl>
+                <dt>America</dt>
+                <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
+            </dl>
+            <em class="iconfont">&#xe64d;
+            </em>
+        </li>
+        <li>
+            <span class="iconfont">&#xebc2;
+            </span>
+
+            <dl>
+                <dt>Africa</dt>
+                <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
+            </dl>
+            <em class="iconfont">&#xe64d;
+            </em>
+        </li>
+        <li>
+            <span class="iconfont">&#xe68b;</span>
+
+            <dl>
+                <dt>Southeast Asia</dt>
+                <dd>Sydney Melbourne Brisbane Hobart Perth Gold Coast</dd>
+            </dl>
+            <em class="iconfont">&#xe64d;
+            </em>
+        </li>
+        <li>
+            <span class="iconfont">&#xef79;
+            </span>
+
+            <dl>
+                <dt>China Mainland</dt>
+                <dd>Shanghai Beijing Chengdu Guangzhou</dd>
+            </dl>
+            <em class="iconfont">&#xe64d;
+            </em>
+        </li>
+    </ul>
+    </nav>
