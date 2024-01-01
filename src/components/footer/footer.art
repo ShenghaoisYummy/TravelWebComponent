@@ -1,0 +1,33 @@
+<footer>
+    <div class="part1">
+        <div class="center-wrap">
+            <nav>
+                <ul class="clearfix">
+                    <li><a href="">Self-guided</a></li>
+                    <li><a href="">Local Activities</a></li>
+                    <li><a href="">Discounted Flights</a></li>
+                    <li><a href="">Visa Services</a></li>
+                    <li><a href="">Cruises</a></li>
+                    <li><a href="">Car Rental</a></li>
+                    <li><a href="">Deep Tour</a></li>
+                    <li><a href="">Deep Tour</a></li>
+
+                </ul>
+            </nav>
+            <div class="dlbox clearfix">
+                <dl class="txfw">
+                    <dt>Considerate Service</dt>
+                    <dd>We gather the real needs of Muyun travelers, seek unique travel destinations, and ensure worry-free journeys.</dd>
+                </dl>
+                <dl class="ccsx">
+                    <dt>Layered Screening</dt>
+                    <dd>We rigorously screen tourism product suppliers, ensuring qualifications are thoroughly reviewed.</dd>
+                </dl>
+                <dl class="axph">
+                    <dt>Reliable Support</dt>
+                    <dd>We provide prompt complaint resolution, and offer preemptive compensation in case of issues.</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</footer>

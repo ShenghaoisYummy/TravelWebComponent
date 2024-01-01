@@ -1,0 +1,54 @@
+.part1 {
+    padding-top: 36px;
+    height: 220px;
+    background-color: #F7F7F7;
+    ;
+}
+
+.part1 .center-wrap nav {
+    margin-bottom: 40px;
+}
+
+.part1 .center-wrap ul li {
+
+    float: left;
+    margin-right: 25px;
+    padding-right: 24px;
+    border-right: black 1.5px solid;
+
+}
+
+.part1 .center-wrap ul li:last-child {
+    border: none;
+    margin-right: 0px;
+    padding-right: 0px;
+
+
+}
+
+.part1 .center-wrap ul li a {
+
+    font-size: 18px;
+    color: #1C1F21;
+}
+
+.part1 .center-wrap .dlbox dl {
+
+    float: left;
+    width: 33.3333%;
+}
+
+.part1 .center-wrap .dlbox dl dt {
+
+    font-size: 16px;
+    color: #1C1F21;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.part1 .center-wrap .dlbox dl dd {
+
+    font-size: 14px;
+    color: #1C1F21;
+    line-height: 22px;
+}

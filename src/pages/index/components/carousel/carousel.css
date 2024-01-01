@@ -15,3 +15,39 @@
     width:100%;
     overflow: hidden;
 }
+
+#points ul li.current {
+
+    width: 30px;
+}
+
+#points ul li:last-child {
+
+    margin-right: 0px;
+
+}
+
+#points ul li {
+
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;;
+    border-radius: 20px;
+    background-color: #20BD9A;
+    z-index: 9998;
+    transition: all .5s ease .1s;
+
+}
+
+#points {
+
+    width: 160px;
+    height: 20px;
+    position:absolute;
+    left: 50%;
+    bottom:10px;
+    z-index: 9999;
+    cursor: pointer;
+
+}
