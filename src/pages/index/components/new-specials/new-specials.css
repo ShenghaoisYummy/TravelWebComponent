@@ -1,0 +1,20 @@
+.new-specials ul li {
+
+    float: left;
+    width: 264px;
+    height: 184px;
+    margin-right: 32px;
+    margin-bottom: 120px;
+
+}
+
+.new-specials ul li:nth-child(4n) {
+
+    margin-right: 0
+}
+
+.new-specials {
+    background: #F7F7F7;
+    height: 738px;
+
+}

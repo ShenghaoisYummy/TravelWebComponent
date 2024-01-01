@@ -1,0 +1,59 @@
+.local-experiences {
+
+    width: 1366px;
+    height: 456px;
+
+}
+
+.local-experiences .hd {
+
+    padding-left: 416px
+}
+
+
+.local-experiences .content li {
+
+    position: relative;
+    float: left;
+    top: 10%;
+    overflow: hidden;
+
+
+}
+
+.local-experiences .content li {
+
+    margin-right: 32px;
+
+}
+
+.local-experiences .content li:last-child {
+
+    margin-right: 0;
+
+}
+
+.local-experiences .content .proname {
+
+    height: 40px;
+
+}
+
+.local-experiences .content span {
+
+    font-size: 10px;
+
+}
+
+.local-experiences .content .score {
+
+    color: #FA6400;
+}
+
+
+
+.local-experiences .wordbox {
+
+    padding: 12px;
+
+}

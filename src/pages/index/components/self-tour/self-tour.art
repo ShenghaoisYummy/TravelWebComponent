@@ -1,0 +1,108 @@
+<section class="self-tour content-part common-style">
+    <div class="center-wrap">
+        <div class="hd clearfix">
+            <h2 class="title">Self-guided Tour</h2>
+            <em class="subtitle">Selection of global travel products</em>
+            <nav>
+                <ul>
+                    <li><a href="">Recent Goodies</a></li>
+                    <li><a href="">New Arrivals</a></li>
+                    <li><a href="">Customized Tours</a></li>
+                    <li class="current"><a href="">Discounted Flights</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="self-tourgrid">
+            <ul>
+                <li class="big-grid">
+                    <a href="">
+                        <img src="/images/selfguide1.png" alt="">
+                    </a>
+                    <span class="tag">Flight</span>
+                    <div class="info">
+                        <div>
+                            <p>
+                                [Cherry Blossom Season] Tianjin to Tokyo/Osaka/Nagoya/Okinawa/Sapporo 2-30 days round trip
+                            </p>
+                            <p>
+                                Tax-inclusive airfare [Clearance/Scheduled departures]
+                            </p>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <span class="tag">Group</span>
+                            <img src="/images/selfguide2.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                        </div>
+                    </a>
+                </li>
+
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <span class="tag">Flight</span>
+                            <img src="/images/selfguide3.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                    </a>
+                </li>
+
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <span class="tag">Flight</span>
+                            <img src="/images/selfguide4.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                        </div>
+                    </a>
+                </li>
+
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <span class="tag">Flight</span>
+                            <img src="/images/selfguide5.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                        </div>
+                    </a>
+                </li>
+
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <span class="tag">Flight</span>
+                            <img src="/images/selfguide6.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                        </div>
+                    </a>
+                </li>
+
+                <li class="more-grid">
+                    <a href="">
+                        <p>View More</p>
+                        <p>Self-guided Products</p>
+                        <span class="iconfont">&#xe888;</span>
+                        <ul>
+                            <li>Flights</li>
+                            <li>Hotels</li>
+                            <li>Cruise</li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>            
+    </div>
+</section>

@@ -1,0 +1,99 @@
+<section class="local-fun content-part common-style">
+    <div class="center-wrap">
+        <div class="hd clearfix">
+            <h2 class="title">Local Entertainment</h2>
+            <em class="subtitle">Experience local food, drinks, and entertainment like a local</em>
+            <nav>
+                <ul>
+                    <li><a href="">Japan</a></li>
+                    <li><a href="">Switzerland</a></li>
+                    <li><a href="">New Zealand</a></li>
+                    <li><a href="">Australia</a></li>
+                    <li><a href="">Thailand</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content"> 
+            <div class="col">
+                <div class="bigpicbox">
+                    <img src="images/localfun1.png" alt="">
+                    <div class="info">
+                        <p class="proname">
+                            [Family Choice] Night Safari in Chiang Mai, Thailand (Optional Pickup; Guide; Giraffe Restaurant)
+                        </p>
+                        <div class="bottom clearfix">
+                            <p class="tag">City Entertainment</p>
+                            <p class="price"> From <strong>99</strong> AUD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="localfun-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/localfun2.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            [Cherry Blossom Season] Direct Flights from Beijing/Tianjin to Tokyo/Osaka/Nagoya/Fukuoka
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="localfun-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/localfun3.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            [New Instagram Picks] Day Trip to Black White Blue Temple in Chiang Mai
+                        </div>
+                    </a>
+                </div>
+                <div class="localfun-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/localfun4.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            [Island-wide Pickup + Chinese Guide] One Day Tour to Phuket 
+                        </div>
+                    </a>
+                </div>
+                <div class="localfun-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/localfun5.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Enjoy Travel | One Day Trip to Koh Samui, Thailand, Off-road Jungle Island Tour
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="localfun-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/localfun6.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            [Cherry Blossom Season] Direct Flights from Beijing/Tianjin to Tokyo/Osaka/Nagoya/Fukuoka/
+                        </div>
+                    </a>
+                </div>
+                <div class="more-grid">
+                    <a href="">
+                        <p>View More</p>
+                        <p>Package Deals for Independent Travel</p>
+                        <span class="iconfont">&#xe888;</span>
+                        <ul>
+                            <li>SIM Cards</li>
+                            <li>Transport</li>
+                            <li>Attraction</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

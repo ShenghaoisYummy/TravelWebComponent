@@ -1,0 +1,18 @@
+.hot-ads ul li {
+    float: left;
+    width: 264px;
+    height: 110px;
+    margin-right: 32px;
+}
+
+.hot-ads ul li:last-child {
+    width: 264px;
+    height: 110px;
+    margin-right: 0px;
+}
+
+.hot-ads {
+    height: 110px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}

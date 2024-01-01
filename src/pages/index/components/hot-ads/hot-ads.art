@@ -1,0 +1,29 @@
+<section class="hot-ads">
+    <div class="center-wrap">
+        <ul>
+            <li>
+                <a href="">
+                        <img src="./images/hot-ads1.png" />
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                        <img src="./images/hot-ads2.png" />
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                        <img src="./images/hot-ads3.png" />
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                        <img src="./images/hot-ads4.png" />
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>

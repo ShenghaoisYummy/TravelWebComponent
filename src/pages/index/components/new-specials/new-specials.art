@@ -1,0 +1,89 @@
+   <section class="new-specials">
+        <div class="center-wrap">
+            <div class="hd clearfix">
+                <h2 class="title">New Specials</h2>
+                <em class="subtitle">Goodies you can't miss every day</em>
+            </div>
+        <ul>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial1.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        Beijing to Maldives 6-7 days round trip
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial2.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        [Tail-shaking Carnival] Beijing/Tianjin to Japan Tokyo
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial3.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        [No Refusal – Full Refund][Nationwide 25-City Connection] 
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial4.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        [Cherry Blossom Season] Beijing to Tokyo
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial5.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                         New Zealand Fox Glacier Helicopter Sightseeing+Glacier Trek…
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial6.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        [Nordic Icebreaker] Finland+Sweden Polar Explorer
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial7.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        [Special Offer for Designated Departure Dates]
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="picbox">
+                        <img src="images/newspecial8.png" alt="">
+                    </div>
+                    <div class="wordbox">
+                        Malaysia Sky Mirror+Eagle-watching at the Estuary
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </section>

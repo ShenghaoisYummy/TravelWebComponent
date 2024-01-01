@@ -44,3 +44,291 @@ body {
 .dib {
     display: inline-block;
 }
+
+
+.common-style nav ul li {
+
+    float: right;
+    margin-right: 10px;
+    padding: 2px;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+
+.common-style nav ul li:hover a {
+
+    color: #20BD9A;
+    border-bottom: #20BD9A solid 3px;
+
+}
+
+.common-style nav ul li a {
+
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    line-height: 22px;
+
+}
+
+.common-style .big-grid {
+
+    position: relative;
+    width: 560px;
+    height: 270px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    overflow: hidden;
+
+
+
+}
+
+.common-style .pro-grid {
+
+    width: 264px;
+    height: 270px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+
+}
+
+.common-style ul li {
+
+    float: left;
+
+}
+
+.common-style ul li:nth-child(3),
+li:nth-child(7) {
+
+    margin-right: 0px;
+
+}
+
+.common-style .picbox .tag {
+
+    position: absolute;
+    top: 144px;
+    width: 74px;
+    height: 40px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0.6;
+    background: #1C1F21;
+    z-index: 9999;
+
+}
+
+.common-style .big-grid .tag {
+
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -20px;
+    width: 74px;
+    height: 40px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0.6;
+    background: #1C1F21;
+
+}
+
+.common-style .big-grid .info {
+
+    position: absolute;
+    width: 560px;
+    height: 103px;
+    opacity: 0.55;
+    top: 167px;
+    background: #1C1F21;
+
+}
+
+.common-style .big-grid .info div {
+
+    position: absolute;
+    padding: 26px;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 22px;
+
+}
+
+.common-style .more-grid {
+
+    position: relative;
+    width: 264px;
+    height: 270px;
+    background-image: linear-gradient(180deg, #34E3BC 0%, #15AF7A 98%);
+    box-shadow: 0 1px 1px 0;
+    padding-top: 46px;
+    box-sizing: border-box;
+    ;
+
+
+}
+
+.common-style .more-grid p {
+
+    font-size: 14px;
+    top: 46px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.common-style .more-grid span {
+
+    position: absolute;
+    font-size: 48px;
+    top: 50%;
+    margin-top: -25px;
+    color: #FFFFFF;
+    left: 50%;
+    margin-left: -24px;
+    line-height: 48px;
+}
+
+.common-style .more-grid ul {
+
+    float: left;
+    margin-top: 113px;
+    margin-left: 13%;
+}
+
+.common-style .more-grid ul li {
+
+    float: left;
+    padding-right: 13px;
+    margin-left: 13px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-right: #FFFFFF solid 2px;
+    overflow: hidden;
+}
+
+.common-style .more-grid ul li:last-child {
+
+    margin-right: 0px;
+    border-right: #FFFFFF solid 0px;
+
+
+}
+
+
+.title {
+
+    float: left;
+    font-size: 36px;
+    color: #1C1F21;
+    text-align: justify;
+    line-height: 54px;
+    padding-top: 40px;
+    margin-bottom: 32px;
+
+}
+
+.subtitle {
+
+    float: left;
+    margin-top: 30px;
+    margin-left: 12px;
+    font-size: 12px;
+    padding-top: 40px;
+
+    margin-bottom: 32px;
+
+
+}
+
+.wordbox {
+
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
+    color: #1C1F21;
+    height: 86px;
+    width: 264px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 32px;
+    padding: 22px 14px 22px 14px;
+    box-sizing: border-box;
+
+}
+
+.wordbox a {
+
+    color: #1C1F21;
+    font-size: 14px;
+}
+
+.picbox {
+
+    width: 264px;
+    height: 184px;
+    overflow: hidden;
+
+}
+
+.wordbox,
+.picbox {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
+
+}
+
+
+
+.common-style .circle {
+
+    width: 106px;
+    height: 106px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    z-index: 9999;
+    top: 50%;
+    margin-top: -53px;
+    left: 50%;
+    margin-left: -53px;
+    position: absolute;
+
+
+}
+
+.common-style .circle p {
+
+    position: relative;
+    top: 50%;
+    margin-top: -10px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.common-style .word {
+
+    position: absolute;
+    bottom: 20px;
+    color: #FFFFFF;
+    z-index: 9999;
+
+}
+
+
+
+.center-wrap img:hover {
+
+    transition: .2 ease;
+    transform: scale(1.1);
+
+}
+

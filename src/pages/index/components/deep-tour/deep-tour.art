@@ -1,0 +1,92 @@
+<section class="deep-tour content-part common-style">
+    <div class="center-wrap">
+        <div class="hd clearfix">
+            <h2 class="title">Deep tour</h2>
+            <em class="subtitle">Break free from generic travels, explore your own world</em>
+            <nav>
+                <ul>
+                    <li class="current"><a href="">CityWalk</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bd">
+            <ul>
+                <li class="big-grid havehover">
+                    <a href="">
+                        <div class="mask"></div>
+                        <div class="circle">
+                            <p>City Walk</p>
+                        </div>
+                        <div class="word">
+                            【City Walk】Osaka's Splendid Castle 
+                        </div>
+                        <img src="images/deeptour1.png" alt="">
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/deeptour2.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Hangzhou direct flight to Bali 5-7 days round trip
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/deeptour5.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                           Hangzhou direct flight to Bali 5-7 days round trip
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/deeptour3.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Hangzhou direct flight to Bali 5-7 days round trip
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/deeptour4.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Hangzhou direct flight to Bali 5-7 days round trip
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/deeptour6.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Hangzhou direct flight to Bali 5-7 days round trip
+                        </div>
+                    </a>
+                </li>
+                <li class="more-grid">
+                    <a href="">
+                        <p>View more</p>
+                        <p>Deep travel products</p>
+                        <span class="iconfont">&#xe888;</span>
+                        <ul>
+                            <li>Day trips</li>
+                            <li>Weekends</li>
+                            <li>Family</li>
+                            <li>Long-haul</li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

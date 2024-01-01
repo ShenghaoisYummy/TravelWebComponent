@@ -1,0 +1,75 @@
+    <section class="local-experiences content-part">
+        <div class="center-wrap">
+            <div class="hd clearfix">
+                <h2 class="title">Local Experiences</h2>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localexp1.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                <p class="proname">
+                                    Hong Kong Disneyland
+                                </p>
+                                <p>
+                                    <span class="score">★ 4.8</span>
+                                    <span class="comment">(92833 reviews) by 2334.69k people</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localexp2.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                <p class="proname">
+                                    Rome Golden Palace Theater Transgender Show
+                                </p>
+                                <p>
+                                    <span class="score">★ 4.8</span>
+                                    <span class="comment">(92833 reviews) by 2334.69k people</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localexp3.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                <p class="proname">
+                                    Kyoto Kimono Experience - Dream Hall
+                                </p>
+                                <p>
+                                    <span class="score">★ 4.8</span>
+                                    <span class="comment">(92833 reviews) by 2334.69k people</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="picbox">
+                                <img src="images/localexp4.png" alt="">
+                            </div>
+                            <div class="wordbox">
+                                <p class="proname">
+                                    UK Stonehenge Day Tour
+                                </p>
+                                <p>
+                                    <span class="score">★ 4.8</span>
+                                    <span class="comment">(92833 reviews) by 2334.69k people</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>

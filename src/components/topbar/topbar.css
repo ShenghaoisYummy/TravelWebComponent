@@ -1,3 +1,17 @@
+.side-head {
+    height: 150px;
+}
+
+.nav-r {
+    float: right;
+}
+
+.nav-r a,
+span {
+    margin-right: 7px;
+    font-size: small;
+}
+
 .side-head .topbar {
     height: 32px;
     background-color: #000;
@@ -56,5 +70,54 @@
     left: 3px;
     top: -1.5px;
     transform: rotate(45deg);
+
+}
+
+
+.shortcut-list .have-menu .topmenu-dest {
+
+    display: none;
+    padding-left: 10px;
+
+}
+
+.shortcut-list .have-menu .topmenu-dest ul {
+
+    display: none;
+
+}
+
+.shortcut-list .have-menu:hover .topmenu-dest ul {
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+}
+
+.shortcut-list .have-menu:hover .topmenu-dest ul li {
+
+    line-height: 18px;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+
+
+}
+
+.shortcut-list .have-menu:hover .topmenu-dest ul a {
+    font-size: 12px;
+    color: #1C1F21;
+
+}
+
+.shortcut-list li.have-menu:hover .topmenu-dest {
+
+    position: absolute;
+    width: 75px;
+    height: 168px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0;
+    display: block;
+    z-index: 9999;
 
 }

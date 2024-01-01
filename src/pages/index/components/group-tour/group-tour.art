@@ -1,0 +1,88 @@
+<section class="group-tour content-part common-style">
+    <div class="center-wrap">
+        <div class="hd clearfix">
+            <h2 class="title">Group Tours</h2>
+            <em class="subtitle"> Travel needs good choices for peace of mind</em>
+            <nav>
+                <ul>
+                    <li class="current"><a href="">Self-guided Tours</a></li>
+                    <li><a href="">City Walk</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bd">
+            <ul>
+                <li class="big-grid havehover">
+                    <a href="">
+                        <div class="mask"></div>
+                        <div class="circle">
+                            <p>Guided Tours</p>
+                        </div>
+                        <div class="word">
+                            【City Walk】Osaka's Splendid Castle
+                        </div>
+                        <img src="images/grouptour.png" alt="">
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/grouptour2.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Chengdu/Xi'an direct flight to Chiang Mai
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/grouptour3.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            [All-inclusive] Beijing direct flight to Tokyo 
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/grouptour4.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Tianjin direct flight to Nha Trang 5-7 days semi-self-guided tour 
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/grouptour5.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Guangzhou direct flight to Malé 5-6 semi-self-guided tour
+                        </div>
+                    </a>
+                </li>
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <img src="images/grouptour6.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            (Visa-free entry) Shenzhen direct flight to Tehran
+                    </a>
+                </li>
+                <li class="more-grid">
+                    <a href="">
+                        <p>View more</p>
+                        <p>Premium Group Tours</p>
+                        <span class="iconfont">&#xe888;</span>
+                        <ul>
+                            <li>Group Tours</li>
+                            <li>Guided Tours</li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
