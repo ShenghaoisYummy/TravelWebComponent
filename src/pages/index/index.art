@@ -47,6 +47,7 @@
     <% include ('./components/local-experiences/local-experiences.art')%>
 
     <% include ('./components/deep-tour/deep-tour.art')%>
+    
     <% include ('./components/group-tour/group-tour.art')%>
 
 

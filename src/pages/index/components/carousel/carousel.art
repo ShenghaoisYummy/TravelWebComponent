@@ -9,23 +9,20 @@
 </div>
 <div class="carousel">
     <ul id="carousel_list">
-        <li>
+        <li class="slider-item">
             <img src="./images/banner.jpg"/>
         </li>
-        <li>
+        <li class="slider-item">
             <img src="./images/banner2.jpg"/>
         </li>
-        <li>
+        <li class="slider-item">
             <img src="./images/banner3.jpg"/>
         </li>
-        <li>
+        <li class="slider-item">
             <img src="./images/banner4.jpg"/>
         </li>
-        <li>
+        <li class="slider-item">
             <img src="./images/banner5.jpg"/>
-        </li>
-        <li>
-            <img src="./images/banner.jpg"/>
         </li>
     </ul>
 </div>

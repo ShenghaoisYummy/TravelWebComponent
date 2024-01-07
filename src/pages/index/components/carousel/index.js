@@ -1,3 +1,6 @@
 import './carousel.css';
-import './carousel.js';
 import './btn.css';
+
+import Slider from './module'
+
+new Slider(document.querySelector('.carousel'));

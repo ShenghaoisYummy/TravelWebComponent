@@ -16,7 +16,7 @@
             <ul>
                 <li class="big-grid">
                     <a href="">
-                        <img src="/images/selfguide1.png" alt="">
+                        <img src="images/selfguide1.png" alt="">
                     </a>
                     <span class="tag">Flight</span>
                     <div class="info">
@@ -35,7 +35,7 @@
                     <a href="">
                         <div class="picbox">
                             <span class="tag">Group</span>
-                            <img src="/images/selfguide2.png" alt="">
+                            <img src="images/selfguide2.png" alt="">
                         </div>
                         <div class="wordbox">
                             Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
@@ -47,7 +47,7 @@
                     <a href="">
                         <div class="picbox">
                             <span class="tag">Flight</span>
-                            <img src="/images/selfguide3.png" alt="">
+                            <img src="images/selfguide3.png" alt="">
                         </div>
                         <div class="wordbox">
                             Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
@@ -58,19 +58,7 @@
                     <a href="">
                         <div class="picbox">
                             <span class="tag">Flight</span>
-                            <img src="/images/selfguide4.png" alt="">
-                        </div>
-                        <div class="wordbox">
-                            Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
-                        </div>
-                    </a>
-                </li>
-
-                <li class="pro-grid">
-                    <a href="">
-                        <div class="picbox">
-                            <span class="tag">Flight</span>
-                            <img src="/images/selfguide5.png" alt="">
+                            <img src="images/selfguide4.png" alt="">
                         </div>
                         <div class="wordbox">
                             Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
@@ -82,7 +70,19 @@
                     <a href="">
                         <div class="picbox">
                             <span class="tag">Flight</span>
-                            <img src="/images/selfguide6.png" alt="">
+                            <img src="images/selfguide5.png" alt="">
+                        </div>
+                        <div class="wordbox">
+                            Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
+                        </div>
+                    </a>
+                </li>
+
+                <li class="pro-grid">
+                    <a href="">
+                        <div class="picbox">
+                            <span class="tag">Flight</span>
+                            <img src="images/selfguide6.png" alt="">
                         </div>
                         <div class="wordbox">
                             Beijing/Shanghai/Nanjing/Hangzhou to Bali 5-7 days round trip 
