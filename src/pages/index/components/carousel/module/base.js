@@ -2,9 +2,10 @@ import DEFAULTS from './defaults.js';
 
 class BaseSlider {
     constructor(el, options) {
+
         if (el.nodeType !== 1) {
             throw new Error('please input DOM element');
-        }
+        };
 
         this.options = {
             ...DEFAULTS,
@@ -36,20 +37,77 @@ class BaseSlider {
 
         this.move(this.getDistance());
 
-        if(this.options.animation){
+        if (this.options.animation) {
             this.openAnimation();
         }
-        if(this.options.autoplay){
+        if (this.options.autoplay) {
             this.autoplay();
         }
 
     }
 
+
+
+    next(){
+        
+        this.to(this.currIndex + 1);
+
+    }
+
+    prev(){
+
+        this.to(this.currIndex - 1);
+
+    }
+
+    to(index) {
+
+        index = this.getCorrectedIndex(index);
+        if(index === this.currIndex) return;
+
+        this.currIndex = index;
+        const distance = this.getDistance(index);
+        
+        if(this.animation){
+
+            this.moveWithAnimation(distance);
+
+        }
+        else{
+            this.move(distance);
+        }
+
+    }
+
+    autoplay() {
+
+        const {
+            autoplay
+        } = this.options;
+
+        if (autoplay <= 0) return;
+
+        this.pause();
+
+        this.autoplayTimer = setInterval(() => {
+
+            this.next();
+
+        }, autoplay)
+    }
+
+    pause() {
+
+        clearInterval(this.autoplayTimer);
+
+    }
+
     getCorrectedIndex(index) {
+
         if (index > this.maxIndex) {
-            return this.maxIndex;
-        } else if (index < this.minIndex) {
             return this.minIndex;
+        } else if (index < this.minIndex) {
+            return this.maxIndex;
         }
         return index;
     }
@@ -63,17 +121,39 @@ class BaseSlider {
 
     openAnimation() {
 
-        this.sliderContentEl.classList.add('.slider-animation');
+        this.sliderContentEl.classList.add('slider-animation');
+
+    }
+
+    closeAnimation(){
+
+        this.setAnimationSpeed(0);
+
+    }   
+    
+    setAnimationSpeed(speed = this.options.speed) {
+
+        this.sliderContentEl.style.transitionduration = `${speed}ms`;
 
     }
 
     move(distance) {
 
+        this.setAnimationSpeed(0);
+        this.sliderContentEl.style.transform = `translate3d(${distance}px, 0px, 0px)`;
+
+
+    }
+
+    moveWithAnimation(distance, speed = this.options.speed) {
+
+        this.setAnimationSpeed(speed);
         this.sliderContentEl.style.transform = `translate3d(${distance}px, 0px, 0px)`;
 
     }
 
     setItemsWidth() {
+
         for (const item of this.sliderItemEls) {
 
             item.style.width = `${this.itemWidth}px`;
