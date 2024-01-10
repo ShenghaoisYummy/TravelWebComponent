@@ -1,5 +1,5 @@
 import DEFAULTS from './defaults.js';
-
+import { serialize, addURLData } from './utils.js'
 class Ajax {
 
     constructor(url, options) {
@@ -38,6 +38,16 @@ class Ajax {
 
     timeout() {
 
+    }
+
+    addParam(){
+
+        const { params } = this.options;
+
+        if(!params) return '';
+
+        return `${addURLData(serialize(params))}`
+        
     }
 
     ok(){
