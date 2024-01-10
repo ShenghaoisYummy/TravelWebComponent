@@ -1,5 +1,6 @@
 import DEFAULTS from './defaults.js';
 import { serialize, addURLData } from './utils.js'
+import { HTTP_GET } from "./constants.js";
 class Ajax {
 
     constructor(url, options) {
@@ -18,6 +19,44 @@ class Ajax {
         this.bindEvent();
         xhr.open(this.options.method, this.url + this.addParam(params), true);
 
+        this.setResponseType( );
+        this.setCookie();
+        this.setTimeout();
+        this.xhr.send();
+
+    }
+
+    setResponseType(){
+
+        this.xhr.responseType = this.options.responseType;
+
+    }
+
+    setCookie(){
+
+        if(this.options.withCredentials){
+            this.xhr.withCredentials = true;
+        }
+
+    }
+
+    sendData() {
+
+        const xhr = this.xhr;
+
+        if (!this.isSendData()){
+            return xhr.send(null);
+        }
+    }
+
+    isSendData(){
+
+        const { data, method } = this.options;
+
+        if(!data) return false;
+
+        if(method.toLowerCase()===  HTTP_GET.toLowerCase()) return false;
+        
     }
     
     success() {
@@ -36,8 +75,13 @@ class Ajax {
 
     }
 
-    timeout() {
+    setTimeout() {
 
+        const { timeoutTime } = this.options;
+
+        if(timeouTime > 0) {
+            this.xhr.timeout = timeoutTime;
+        }
     }
 
     addParam(){
@@ -51,10 +95,11 @@ class Ajax {
     }
 
     ok(){
-        xhr = this.xhr;
+        xhr = this.xhr; 
         xhr.status >= 200 && xhr.status < 300 || xhr.status == 304
 
     }
+
     bindEvent() {
 
         const xhr = this.xhr;
