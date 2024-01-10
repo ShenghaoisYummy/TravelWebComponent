@@ -1,18 +1,12 @@
 (function () {
-    var carousel = document.getElementById('carousel_list');
-    var leftbtn = document.getElementById('left_btn');
-    var rightbtn = document.getElementById('right_btn');
-    var points = document.getElementById('points');
 
-    var circle_li = points.getElementsByTagName('li');
+    var points = document.getElementById('points');
 
     var topbtn = document.getElementById('backtotop');
 
     var idx = 0;
     var lock = false;
 
-    rightbtn.onclick = right_btn_handler;
-    leftbtn.onclick = left_btn_handler;
 
 
     function right_btn_handler() {
@@ -135,4 +129,6 @@
 
         }
     }
+
+    
 })()

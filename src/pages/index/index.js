@@ -1,6 +1,7 @@
 // public components style
 import '../../assets/style/resetYui.css';
 import '../../assets/style/layout.css';
+import '../../api/2.js'
 // import './css/css.css';
 
 // public page components 
