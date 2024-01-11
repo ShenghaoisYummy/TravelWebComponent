@@ -15,12 +15,16 @@ const serialize = param => {
         results.push(`${encodeURIComponent(key)} = ${encodeURIComponent(value)}`)
 
     }
-
     
     return results.join('&');
 
 }
 
+const serializeJson = param => {
+
+    JSON.stringify(param);
+
+}
 //check wheather the url includes values and return params with ? or & mark
 const addURLData = (url, data) => {
 
@@ -32,4 +36,4 @@ const addURLData = (url, data) => {
 
 }
 
-export { serialize, addURLData };
+export { serialize, addURLData, serializeJson};
